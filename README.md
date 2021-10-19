@@ -1,2 +1,2 @@
-# accesibilidad-taller
-Recursos Web
+# Taller de Accesibilidad
+Recursos Curso 2021
