@@ -1,0 +1,20 @@
+﻿WEBVTT
+
+STYLE
+::cue {
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: papayawhip;
+}
+/* Style blocks cannot use blank lines nor "dash dash greater than" */
+
+NOTE comment blocks can be used between style blocks.
+
+STYLE
+::cue(b) {
+  color: peachpuff;
+}
+
+00:00:00.000 --> 00:00:50.000
+- El video está comenzando <b>Cuidado</b>.
+
+NOTE style blocks cannot appear after the first cue.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 2.8 - Vídeos incrustados</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+  <body>
+    <h1>Incluir vídeos con HTML5</h1>
+	<p class="title">Sin uso de controles</p>
+    <video>
+      <source src="video/rabbit320.mp4" type="video/mp4">
+      <source src="video/rabbit320.webm" type="video/webm">
+      <p>Su navegador no soporta el uso de vídeos con HTML5. Este es el <a href="video/rabbit320.mp4">enlace al vídeo</a>.</p>
+    </video>
+	
+	<p class="title">Uso simple de vídeo</p>
+	<video src="video/rabbit320.webm" controls>
+      <p>Su navegador no soporta el uso de vídeos con HTML5. Este es el <a href="video/rabbit320.mp4">enlace al vídeo</a>.</p>
+    </video>
+	
+	<p class="title">Uso de múltiples vídeos</p>
+	<video controls>
+      <source src="video/rabbit320.mp4" type="video/mp4">
+      <source src="video/rabbit320.webm" type="video/webm">
+      <p>Su navegador no soporta el uso de vídeos con HTML5. Este es el <a href="video/rabbit320.mp4">enlace al vídeo</a>.</p>
+    </video>
+	
+	<p class="title">Uso de múltiples audios</p>
+	<audio controls>
+      <source src="video/viper.mp3" type="audio/mp3">
+      <source src="video/viper.ogg" type="audio/ogg">
+	  <p>Su navegador no soporta el uso de audios con HTML5. Este es el <a href="video/viper.mp3">enlace al audio</a>.</p>
+    </audio>
+	
+	<p class="title">Uso de múltiples vídeos e imagen poster</p>
+	<video controls width="400" height="400" loop muted preload="auto" poster="video/poster.png">
+      <source src="video/rabbit320.mp4" type="video/mp4">
+      <source src="video/rabbit320.webm" type="video/webm">
+      <p>Su navegador no soporta el uso de vídeos con HTML5. Este es el <a href="video/rabbit320.mp4">enlace al vídeo</a>.</p>
+    </video>
+  </body>
+</html>

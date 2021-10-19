@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 2.7 - Elementos incrustados</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Start your code here -->
+
+    <p class="title">Uso de iframe y object</p>
+	
+	<p><strong>iframe</strong> con características accesibles</p>
+	
+	<p>En un iframe los names, titles y nombres de ficheros indican el tipo de contenido al que hacen referencia. Evite usar nombres genéricos como "frame izquierdo" or "frame01".</p>
+	
+	<img src="img/img_recomendations.png" alt="Recomendaciones sobre Iframe"/>
+	<p>No se recomienda el uso de imágenes con mucho texto. Tomado de la Web <a href="https://fae.disability.illinois.edu/rulesets/FRAME_2/" title="La web FAE">FAE Disability</a></p>
+	
+    <hr />
+    <iframe title="Acceso a la Guía de WCAG desde la W3C" src="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&versions=2.1" width="100%" height="500" frameborder="1" name="guia wcag" allowfullscreen sandbox>
+        <p> <a href="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&versions=2.1"> Fallback link for browsers that don't support iframes </a> </p>
+    </iframe>
+
+    <p class="title">Uso de iframe y YouTube</p>
+    <hr />
+    <iframe title="Vídeo de YouTube que habla de la accesibilidad" width="420" height="315" src="https://www.youtube.com/embed/CDg9WQVBEZY" name="video de YouTube" frameborder="1" allowfullscreen>\n</iframe>
+
+	<p class="title">Uso de object e imágenes</p>
+    <hr />
+    <object data="img/imagen_01.png" type="image/jpeg" width="400" height="341" typemustmatch>
+        <p>La imagen no ha sido cargada.</p>
+    </object>
+
+	<p class="title">Uso de object y PDF</p>
+    <hr />
+    <object data="pdf/PAe - Accesibilidad.pdf" type="application/pdf" width="800" height="1200" typemustmatch>
+        <p>Su navegador no dispone de lector de PDF, intente <a href="pdf/PAe - Accesibilidad.pdf">descargar el archivo PDF</a>.</p>
+    </object>
+	
+	
+
+</body>
+
+</html>

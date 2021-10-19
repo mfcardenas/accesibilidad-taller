@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:15,000
+El video esta comenzando
+
+
+2
+00:00:15,000 --> 00:00:30,000
+El tirador esta preparando su posición
+
+
+3
+00:00:35,000 --> 00:01:05,000
+Esto no va salir bien
+
+
+4
+00:01:10,000 --> 00:01:35,000
+La víctima llega a su casa
+
+
+5
+00:01:40,000 --> 00:01:55,000
+Depronto, el amigo del tirador entra en escena

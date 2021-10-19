@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 2.6 - Uso de Tablas en HTML</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <!-- Start your code here -->
+
+    <p class="title">Tabla scope: col/colgroup/row/rowgroup - Ejemplo 3</p>
+    <hr />
+
+    <table>
+        <caption>Material de Laboratorio en Universidades</caption>
+        <thead>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <th colspan="3" scope="colgroup">Libros</th>
+                <th colspan="2" scope="colgroup">Herramientas</th>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <th scope="col">Arte</th>
+                <th scope="col">Ingeniería</th>
+                <th scope="col">Ciencia</th>
+                <th scope="col">Software</th>
+                <th scope="col">Hardware</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Universidad Grande</th>
+                <th scope="row">Sede 1</th>
+                <td>10</td>
+                <td>9</td>
+                <td>8</td>
+                <td>15</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th scope="row">Aula Magna</th>
+                <td>1</td>
+                <td>3</td>
+                <td>15</td>
+                <td>28</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th scope="row">Sede 3</th>
+                <td>1</td>
+                <td>21</td>
+                <td>13</td>
+                <td>22</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Universidad Toledo</th>
+                <th scope="row">Campus Talco</th>
+                <td>11</td>
+                <td>21</td>
+                <td>45</td>
+                <td>25</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th scope="row">Facultad de Arte</th>
+                <td>30</td>
+                <td>75</td>
+                <td>98</td>
+                <td>44</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+    </table>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

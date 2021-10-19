@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jugando con formularios</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-static/">
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap.min.css" rel="stylesheet">
+
+	<meta name="theme-color" content="#7952b3">
+	<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Actividad 2.5</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="actividad_2_5_v02.html">Formulario correcto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="actividad_2_5_v01.html">Formulario incorrecto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" >
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <div class="bg-light p-5 rounded">
+    <h1>Alta de usuario</h1>
+    
+	<form action="procesar_datos.php" method="post" id="formulario_contacto">
+        <fieldset>
+            <legend>Datos personales</legend>
+                <dl>
+                    <dd><label for="nombre">Nombre</label></dd>
+                    <dt><input name="nombre" id="nombre" type="text" size="40" value=" " /></dt>
+                    <dd><label for="apellidos">Apellidos</label></dd>
+                    <dt><input name="apellidos" id="apellidos" type="text" size="40" value=" " /></dt>
+                    <dd><label for="direccion">Dirección</label></dd>
+                    <dt><input name="direccion" id="direccion" type="text" size="40" value=" " /></dt>
+                    <dd><label for="tlf">Teléfono</label></dd>
+                    <dt><input name="tlf" id="tlf" type="text" size="40" value=" " /></dt>
+                    <dd><label for="correo">Correo electrónico</label></dd>
+                    <dt><input name="correo" id="correo" type="text" size="40" value=" " /></dt>
+                </dl>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la empresa</legend>
+                <dl>
+                    <dd><label for="empresa">Nombre de la empresa</label></dd>
+                    <dt><input name="empresa" id="empresa" type="text" size="40" value=" " /></dt>
+                    <dd><label for="tlf_emp">Teléfono</label></dd>
+                    <dt><input name="tlf_emp" id="tlf_emp" type="text" size="40" value=" " /></dt>
+                    <dd><label for="fax">Fax</label></dd>
+                    <dt><input name="fax" id="fax" type="text" size="40" value=" " /></dt>
+                    <dd><label for="pg_web">Página web</label></dd>
+                    <dt><input name="pg_web" id="pg_web" type="text" size="40" value=" " /></dt>
+                </dl>
+            </fieldset>
+            <div><input name="enviar" id="enviar" type="submit" value="Enviar formulario" /></div>
+    </form>
+	
+	<hr>
+    <a class="btn btn-md btn-primary" href="#" role="button">Ejemplo botón &raquo;</a>
+	
+	<label>¿Cuál es su nombre?
+		<input type="text" name="name">
+	</label>
+	
+	<label class="hidden" for="search2">Búsqueda</label>
+	<input type="text" id="search2" name="search2">
+	
+  </div>
+</main>
+
+
+	<script src="bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 2.7 - Uso de Imágenes en HTML</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(header.jpg) no-repeat center;
+        height: 200px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+</head>
+  <body>
+    <header>
+      
+    </header>
+
+    <main>
+	
+	<h1>Uso de imágenes no responsive</h1>
+      <section>
+		<p>Uso de picture para redimensionar.</p>
+		
+		<picture>
+          <source media="(max-width: 799px)" srcset="img/elva-480w-close-portrait.jpg">
+          <source media="(min-width: 800px)" srcset="img/elva-800w.jpg">
+          <img src="img/elva-800w.jpg" alt="Un padre con su hija en los brazos.">
+        </picture>
+
+        <p>Uso de srcset para redimensionar.</p>
+
+        <img srcset="img/elva-fairy-480w.jpg 480w,img/elva-fairy-800w.jpg 800w"
+             sizes="(max-width: 600px) 480px,800px"
+             src="img/elva-fairy-800w.jpg" alt="Una niña con un disfraz de ada"/>
+
+      </section>
+    </main>
+  </body>
+</html>

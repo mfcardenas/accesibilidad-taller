@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 2.6 - Uso de Tablas en HTML</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <!-- Start your code here -->
+
+    <p class="title">Tabla Anidadas - Ejemplo 6</p>
+    <hr />
+
+    <table id="table1">
+        <tr>
+            <th>Género</th>
+            <th>Obras</th>
+            <th>Medio</th>
+        </tr>
+        <tr>
+            <td id="nested">
+                <table id="table2">
+                    <tr>
+                        <td>Terror</td>
+                        <td>Intriga</td>
+                        <td>Suspenso</td>
+                    </tr>
+                </table>
+            </td>
+            <td>El Conjuro</td>
+            <td>Netflix</td>
+        </tr>
+        <tr>
+            <td>Comedia</td>
+            <td>Campeones</td>
+            <td>HBO</td>
+        </tr>
+        <tr>
+            <td>
+                <table id="table3">
+                    <tr>
+                        <td>Drama</td>
+                        <td>Romance</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Desde que te ví</td>
+            <td>Disney</td>
+        </tr>
+    </table>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
