@@ -8,7 +8,7 @@ Recursos Curso 2021
 - Actividad 2.2: crea subtítulos con SRT y VTT, Principio 1.2
 - Actividad 2.3: uso del reproductor Able Player
 - Actividad 2.4: herramienta tota11y para validar páginas web
-- Actividad 2.5: usando imágenes responsive
+- Actividad 2.5: usando formularios en Web
 - Actividad 2.6: ejemplos de tablas en HTML5 accesibles
 - Actividad 2.7: uso de iframe y PDF embebidos 
 - Actividad 2.8: uso de la etiqueta video en HTML5
