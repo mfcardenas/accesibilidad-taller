@@ -17,6 +17,8 @@ Recursos Curso 2021
 - Actividad 4.0: valida el contraste del color
 - Actividad 4.1: photosensitive Epilepsy Analysis
 - Actividad 5.0: comprueba la accesibilidad en sitios web: WAVE
+- Actividad 5.1: la accesibilidad con ARIA
+- Actividad 5.2: comprueba la accesibilidad en PDF
 - Actividad 6.0: comprueba la accesibilidad en sitios web: Siteimprube y AChecker
 - Actividad 6.1: comprueba la accesibilidad en sitios web: Axe Accessibility
 - Actividad 7.0: checklist para la comprobación de la accesibilidad
