@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html Lang=es>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Creando Páginas Web</title>
+	<script type ="text/javascript">
+	
+		$(document).ready(function() {
+			
+		});
+	
+		function change(event) {
+		  var yearOut = document.getElementById("year-output");
+
+		  switch (event.target.id) {
+			case "year":
+			  yearOut.innerHTML = event.target.value;
+			  break;
+			default:
+			  return;
+		  }
+		};
+	</script>
+	
+</head>
+
+<body>
+	<h2>Reloj JS</h2>
+    <div id="date-input">
+	  <label>Year:
+		<input type="text" id="year" value="1990" onblur="change(event)"/>
+	  </label>
+	</div>
+
+	<div id="date-output" aria-atomic="true" aria-live="polite">
+	  The set year is:
+	  <span id="year-output">1990</span>
+	</div>
+</body>
+
+</html>

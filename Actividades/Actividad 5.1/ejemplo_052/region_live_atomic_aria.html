@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html Lang=es>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Creando Páginas Web</title>
+	<script type ="text/javascript">
+	
+		$(document).ready(function() {
+			/* first run */
+			updateClock();
+
+			/* update every minute */
+			setInterval(updateClock, 6000);	
+		});
+	
+		/* basic JavaScript to update the clock */
+		function updateClock() {
+		  var now = new Date();
+		  document.getElementById('clock-hours').innerHTML = now.getHours();
+		  document.getElementById('clock-mins').innerHTML = ("0"+now.getMinutes()).substr(-2);
+		}
+	</script>
+	
+</head>
+
+<body>
+	<h2>Reloj JS</h2>
+    <div id="clock" role="timer" aria-live="polite">
+	<!--div id="clock" role="timer" aria-live="polite" aria-atomic="true"-->
+		<span id="clock-hours"></span>
+		<span id="clock-mins"></span>
+	</div>
+</body>
+
+</html>
